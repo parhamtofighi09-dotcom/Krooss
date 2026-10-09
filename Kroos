@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>تونی کروس | زندگی‌نامه</title>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6f7fb;--card:#fff;--text:#14182b;--muted:#5d647d;--accent:#0b3a8f;--line:#e2e5ef}
+@media (prefers-color-scheme:dark){:root{--bg:#0d1020;--card:#171b30;--text:#eef0fa;--muted:#9aa2c0;--accent:#7aa5ff;--line:#2a2f4a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Vazirmatn,Tahoma,sans-serif;line-height:1.9}
+.wrap{max-width:720px;margin:0 auto;padding:16px}
+.hero{text-align:center;padding:32px 16px;background:linear-gradient(135deg,#0b3a8f,#1d6fd6);color:#fff;border-radius:20px}
+.hero .num{font-size:72px;font-weight:900;line-height:1;opacity:.9}
+.hero h1{margin:8px 0 4px;font-size:30px}
+.hero p{margin:0;opacity:.9}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:16px 0}
+.box{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px}
+.box small{color:var(--muted);display:block}
+.box b{font-size:17px}
+h2{color:var(--accent);margin:24px 0 8px;font-size:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+.tl{list-style:none;margin:0;padding:0;border-right:3px solid var(--accent)}
+.tl li{position:relative;padding:8px 18px 8px 0}
+.tl li::before{content:"";position:absolute;right:-9px;top:18px;width:15px;height:15px;border-radius:50%;background:var(--accent)}
+.tl b{display:block}
+.tl span{color:var(--muted);font-size:14px}
+.tbl{overflow-x:auto}
+table{width:100%;border-collapse:collapse;min-width:380px}
+th,td{padding:8px;border-bottom:1px solid var(--line);text-align:right}
+th{color:var(--muted);font-weight:700}
+footer{text-align:center;color:var(--muted);font-size:13px;margin:24px 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <div class="num">۸</div>
+    <h1>تونی کروس</h1>
+    <p>Toni Kroos · هافبک اسطوره‌ای آلمان و رئال مادرید</p>
+  </div>
+
+  <div class="grid">
+    <div class="box"><small>تاریخ تولد</small><b>۴ ژانویه ۱۹۹۰</b></div>
+    <div class="box"><small>سن</small><b id="age">—</b></div>
+    <div class="box"><small>محل تولد</small><b>گرایفسوالد، آلمان</b></div>
+    <div class="box"><small>شماره پیراهن</small><b>۸ (رئال و آلمان)</b></div>
+    <div class="box"><small>نام پدر</small><b>رولاند کروس</b></div>
+    <div class="box"><small>خداحافظی</small><b>پس از یورو ۲۰۲۴</b></div>
+  </div>
+
+  <h2>او که بود؟</h2>
+  <div class="card">
+    تونی کروس یکی از بهترین هافبک‌های تاریخ فوتبال است؛ بازیکنی با پاس‌های دقیق، آرامش فوق‌العاده و دید بازی بی‌نظیر. او با تیم ملی آلمان قهرمان جام جهانی ۲۰۱۴ شد و با رئال مادرید پنج بار قهرمان لیگ قهرمانان اروپا شد.
+  </div>
+
+  <h2>خانواده</h2>
+  <div class="card">
+    پدرش «رولاند کروس» مربی فوتبال بود و مادرش «بیرگیت» بدمینتون‌باز بود. برادر کوچکترش «فلیکس کروس» هم فوتبالیست حرفه‌ای است.
+  </div>
+
+  <h2>تیم‌هایی که برایشان بازی کرد</h2>
+  <ul class="tl">
+    <li><b>هانزا روستوک</b><span>دوران نوجوانی (تیم پایه)</span></li>
+    <li><b>بایرن مونیخ</b><span>۲۰۰۶ تا ۲۰۱۴ · شماره ۳۹ و بعداً ۱۸</span></li>
+    <li><b>بایر لورکوزن (قرضی)</b><span>۲۰۰۸ تا ۲۰۰۹</span></li>
+    <li><b>رئال مادرید</b><span>۲۰۱۴ تا ۲۰۲۴ · شماره ۸</span></li>
+    <li><b>تیم ملی آلمان</b><span>۲۰۱۰ تا ۲۰۲۴ · ۱۰۶ بازی</span></li>
+  </ul>
+
+  <h2>افتخارات مهم</h2>
+  <div class="card tbl">
+    <table>
+      <tr><th>عنوان</th><th>تعداد</th></tr>
+      <tr><td>جام جهانی (۲۰۱۴)</td><td>۱</td></tr>
+      <tr><td>لیگ قهرمانان اروپا</td><td>۶ (۱ با بایرن، ۵ با رئال)</td></tr>
+      <tr><td>لالیگا</td><td>۴</td></tr>
+      <tr><td>بوندسلیگا</td><td>۳</td></tr>
+    </table>
+  </div>
+
+  <h2>کی خداحافظی کرد؟</h2>
+  <div class="card">
+    کروس در ۲۱ مه ۲۰۲۴ اعلام کرد که بعد از جام ملت‌های اروپا ۲۰۲۴ فوتبال را کنار می‌گذارد. آخرین بازی او ۵ ژوئیه ۲۰۲۴ در یک‌چهارم نهایی یورو مقابل اسپانیا بود و در سن ۳۴ سالگی از فوتبال خداحافظی کرد.
+  </div>
+
+  <footer>اطلاعات بر اساس دانسته‌های عمومی تا سال ۲۰۲۶<br><b>سازنده: پرهام توفیقی</b></footer>
+</div>
+<script>
+(function(){
+  var b=new Date(1990,0,4),n=new Date(),a=n.getFullYear()-b.getFullYear();
+  if(n<new Date(n.getFullYear(),0,4))a--;
+  document.getElementById('age').textContent=a.toLocaleString('fa-IR')+' سال';
+})();
+</script>
+</body>
+</html>
